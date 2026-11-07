@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="power_menu"
+        android:enabled="true"
+        android:icon="@drawable/ic_power"
+        android:shortcutShortLabel="@string/shortcut_power_menu"
+        android:shortcutLongLabel="@string/shortcut_power_menu">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.rokib3101.screenoff"
+            android:targetClass="com.rokib3101.screenoff.PowerMenuActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="volume_control"
+        android:enabled="true"
+        android:icon="@drawable/ic_volume"
+        android:shortcutShortLabel="@string/shortcut_volume_control"
+        android:shortcutLongLabel="@string/shortcut_volume_control">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.rokib3101.screenoff"
+            android:targetClass="com.rokib3101.screenoff.VolumeControlActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:shortcutShortLabel="@string/shortcut_settings"
+        android:shortcutLongLabel="@string/shortcut_settings">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.rokib3101.screenoff"
+            android:targetClass="com.rokib3101.screenoff.MainActivity" />
+    </shortcut>
+</shortcuts>

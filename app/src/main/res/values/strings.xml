@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MS Power &amp; Volume Button</string>
+    <string name="accessibility_service_description">MS Power &amp; Volume Button uses Accessibility Service to lock your screen, open power menu, and control volume without physical buttons.</string>
+    <string name="accessibility_service_label">MS Power &amp; Volume Button Service</string>
+    <string name="device_admin_description">Lock the device screen</string>
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="enable_device_admin">Enable Device Administrator</string>
+    <string name="accessibility_enabled">Accessibility Enabled ✓</string>
+    <string name="admin_enabled">Device Admin Enabled ✓</string>
+    <string name="status_active">Status: Active &amp; Ready</string>
+    <string name="status_inactive">Status: Permission required for full features</string>
+    <string name="lock_now">Lock Screen Now</string>
+    <string name="power_menu">Power Menu</string>
+    <string name="volume_control">Volume Control</string>
+
+    <!-- App Shortcuts -->
+    <string name="shortcut_power_menu">Power Menu</string>
+    <string name="shortcut_volume_control">Volume Control</string>
+    <string name="shortcut_settings">Settings</string>
+
+    <string name="toast_accessibility_required">Accessibility Service is required for Power Menu</string>
+</resources>
